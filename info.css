@@ -1,0 +1,11 @@
+/* Format to info panel */
+
+#info {
+	width: 60%;
+	margin: auto;
+	padding: 20px;
+	background-color: #ddd;
+	border-radius: 10px;
+	margin-top: 15%;
+	margin-bottom: 15%;
+}
