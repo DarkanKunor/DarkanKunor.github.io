@@ -1,3 +1,5 @@
+/* General site format */
+
 body {
 	font-size: 1em;
 }
@@ -5,6 +7,8 @@ body {
 h1 {
 	font-size: 2em;
 }
+
+/* Top menu format */
 
 #menu {
 	float: top;
