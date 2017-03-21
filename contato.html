@@ -2,6 +2,7 @@
 <head>
 	<title>Mario Sergio - Contato</title>
 	<link type="text/css" rel="stylesheet" href="/main.css"/>
+	<link type="text/css" rel="stylesheet" href="/info.css"/>
 </head>
 <body>
 	<div id="menu">
@@ -9,8 +10,19 @@
 		<a class="menuItem" href='/games/'>Games</a>
 		<span class="menuItem" id="menuItemCurrent">Contato</span>
 	</div>
-	<hr>
-	<h1 align=center>Contato</h1>
-	Email: mario.sajr@hotmail.com
+	
+	<div id="emailForm">
+		<form name="contactForm" method="post" action="sendEmail.php">
+			Nome:<br>
+			<input type="text" name="name"><br>
+			E-mail:<br>
+			<input type="text" name="mail"><br>
+			Mensagem:<br>
+			<input type="text" name="message"><br><br>
+			<input type="reset" value="Apagar">
+			<input type="submit" value="Enviar">
+		</form>
+	</div>
+	
 </body>
 </html>
