@@ -1,9 +1,7 @@
 /* Format to info panel */
 
-#info {
-	width: 60%;
-	margin: auto;
-	padding-top: 20px;
+.panel {
+	padding-top: 10px;
 	padding-right: 30px;
 	padding-left: 30px;
 	padding-bottom: 20px;
@@ -13,6 +11,58 @@
 	margin-bottom: 15%;
 }
 
+#home {
+	width: 60%;
+	margin: auto;
+}
+
 .infoText {
 	text-align: justify;
-]
+}
+
+#emailForm {
+	width: 25%;
+	margin-left: 23%;
+	float: left;
+}
+
+#contacts {
+	width: 20%;
+	margin-right: 23%;
+	float: right;
+}
+
+.label {
+	float: left;
+}
+
+.input {
+	float right;
+	margin-left: 20%;
+}
+
+.contactInput{
+	padding: 2px;
+	width: 90%;
+}
+
+.contactTextBox{
+	height: 4em;
+	width: 90%;
+}
+
+.contactButton{
+	width: 30%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#reset {
+	margin-left: 15%;
+	float: left;
+}
+
+#submit {
+	margin-right: 15%;
+	float: right;
+}
