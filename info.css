@@ -50,6 +50,7 @@
 .contactTextBox{
 	height: 4em;
 	width: 90%;
+	resize: none;
 }
 
 .contactButton{
