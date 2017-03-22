@@ -1,35 +1,37 @@
 /* Format to info panel */
 
 .panel {
-	padding-top: 10px;
+	padding-top: 5px;
 	padding-right: 30px;
 	padding-left: 30px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	background-color: #ddd;
 	border-radius: 10px;
-	margin-top: 15%;
-	margin-bottom: 15%;
 }
 
 #home {
-	width: 60%;
+	width: 500px;
 	margin: auto;
-	margin-top: 15%;
+	margin-top: 150px;
 }
 
 .infoText {
 	text-align: justify;
 }
 
+#container {
+	width: 750px;
+	margin: auto;
+	margin-top: 150px;
+}
+
 #emailForm {
-	width: 25%;
-	margin-left: 23%;
+	width: 350px;
 	float: left;
 }
 
 #contacts {
-	width: 20%;
-	margin-right: 23%;
+	width: 250px;
 	float: right;
 }
 
@@ -39,32 +41,32 @@
 
 .input {
 	float right;
-	margin-left: 20%;
+	margin-left: 80px;
 }
 
 .contactInput{
 	padding: 2px;
-	width: 90%;
+	width: 270px;
 }
 
 .contactTextBox{
-	height: 4em;
-	width: 90%;
+	height: 6em;
+	width: 270px;
 	resize: none;
 }
 
 .contactButton{
-	width: 30%;
+	width: 150px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
 
 #reset {
-	margin-left: 15%;
+	--margin-left: 25px;
 	float: left;
 }
 
 #submit {
-	margin-right: 15%;
+	--margin-right: 25px;
 	float: right;
 }
