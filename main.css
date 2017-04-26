@@ -1,4 +1,9 @@
 /* General site format */
+* {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
 
 body {
 	font-size: 1em;
@@ -6,13 +11,6 @@ body {
 
 h1 {
 	font-size: 2em;
-}
-
-#background {
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-    background-size: cover;
 }
 
 /* Top menu format */
