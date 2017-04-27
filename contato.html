@@ -1,6 +1,7 @@
 <html>
 <head>
 	<title>Mario Sergio - Contato</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link type="text/css" rel="stylesheet" href="main.css"/>
 	<link type="text/css" rel="stylesheet" href="info.css"/>
 </head>
@@ -13,25 +14,33 @@
 	
 	<div id="container">
 		<div class="panel" id="emailForm">
-			<h2>Me mande um email</h2>
+			<div class="data"><h2>Me mande um email</h2></div>
 			<form action="https://formspree.io/mario.sajr@hotmail.com" method="post">
-				<p><div class="label">Nome: </div>
-					<div class="input"><input class="contactInput" type="text" name="name"></div></p>
-				<p><div class="label">E-mail: </div>
-					<div class="input"><input class="contactInput" type="text" name="email"></div></p>
-				<p><div class="label">Mensagem: </div>
-					<div class="input"><textarea class="contactTextBox" type="text" name="message"></textarea></div></p>
+			<div class="data">
+				<div class="label">Nome: </div>
+				<div class="input"><input class="contactInput" type="text" name="name"></div>
+			</div>
+			<div class="data">
+				<div class="label">E-mail: </div>
+				<div class="input"><input class="contactInput" type="text" name="email"></div>
+			</div>
+			<div class="data">
+				<div class="label">Mensagem: </div>
+				<div class="input"><textarea class="contactTextBox" type="text" name="message"></textarea></div>
+			</div>
+			<div class="buttons">
 				<input class="contactButton" id="reset" type="reset" value="Apagar">
 				<input class="contactButton" id="submit" type="submit" value="Enviar">
+			</div>
 			</form>
 		</div>
 		
 		<div class="panel" id="contacts">
-			<h2 align="center">Contato</h2>
-			<p>Email: mario.sajr@hotmail.com</p>
-			<p><a href="https://www.linkedin.com/in/mariosergioaffonsojr/">LinkedIn</a></p>
-			<p><a href="https://www.facebook.com/itisame.mario">Facebook</a></p>
-			<p>Skype: mariosergioaffonsojr</p>
+			<div class="data"><h2>Contato</h2></div>
+			<div class="data"><p>Email: mario.sajr@hotmail.com</p></div>
+			<div class="data"><p><a href="https://www.linkedin.com/in/mariosergioaffonsojr/">LinkedIn</a></p></div>
+			<div class="data"><p><a href="https://www.facebook.com/itisame.mario">Facebook</a></p></div>
+			<div class="data"><p>Skype: mariosergioaffonsojr</p></div>
 		</div>
 	</div>
 	
