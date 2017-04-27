@@ -1,43 +1,33 @@
-.game{
-	width: 610px;
-	display: block;
-	height: 250px;
-	--background-color: gray;
+#container {
+	width: 90%;
+	max-width: 600px;
 	margin: auto;
+	border: double #999 1px;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #ddd;
 	border-radius: 10px;
-	border: 1px solid #ccc;
-	padding: 5px;
-	margin-top: 10px;
 }
 
-.gameImage {
-	width: 300px;
-	height: 250px;
-	display: inline-block;
-	border-radius: 10px;
-	--border: 1px solid #ccc;
-	float: left;
-	--background-color: blue;
+.gameName {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
 }
 
-.gameData {
-	width: 300px;
-	height: 248px;
-	display: inline-block;
-	--margin: 10px;
-	border-radius: 5px;
-	border: 1px solid #ccc;
-	float: right;
-	--background-color: red;
-}
-
-table {
+.gameThumbnail img {
 	width: 100%;
-	border-radius: 10px;
+	height: auto;
 }
 
-table, th, td {
-	
+.slideButtonLeft {
+	position:absolute;
+	top:50%;
+	left:0%;
+}
+
+.slideButtonRight {
+	float: right;
 }
 
 .label {
@@ -49,24 +39,48 @@ table, th, td {
 	width: 70%;
 }
 
-.image {
-	width: 300px;
-	height: 250px;
-	border-top-left-radius: 5px;
-	border-bottom-left-radius: 5px;
-}
-
-.detailButton {
+.detailsButton {
 	background-color: #6c6;
-	display: inline-block;
+	display: block;
 	width: 100px;
+	margin: auto;
 	margin-top: 10px;
-	margin-left: 88px;
 	padding: 10px;
 	border-radius: 10px;
 	text-align: center;
-	text-decoration: none;
 	border: 2px solid #08d;
+}
+
+.detailsButton a {
+	text-decoration: none;
 	color: white;
 	font-weight: bold;
+}
+
+#end {
+	clear: both;
+}
+
+@media only screen and (min-width: 550px) {
+	.gameThumbnail {
+		float: left;
+		width: 64%;
+	}
+
+	.gameDescription {
+		float: right;
+		width: 35%;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.gameThumbnail {
+		display: block;
+		width: 100%;
+	}
+
+	.gameDescription {
+		display: block;
+		width: 100%;
+	}
 }

@@ -1,0 +1,72 @@
+.game{
+	width: 610px;
+	display: block;
+	height: 250px;
+	--background-color: gray;
+	margin: auto;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.gameImage {
+	width: 300px;
+	height: 250px;
+	display: inline-block;
+	border-radius: 10px;
+	--border: 1px solid #ccc;
+	float: left;
+	--background-color: blue;
+}
+
+.gameData {
+	width: 300px;
+	height: 248px;
+	display: inline-block;
+	--margin: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	float: right;
+	--background-color: red;
+}
+
+table {
+	width: 100%;
+	border-radius: 10px;
+}
+
+table, th, td {
+	
+}
+
+.label {
+	width: 30%;
+	font-weight: bold;
+}
+
+.data {
+	width: 70%;
+}
+
+.image {
+	width: 300px;
+	height: 250px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.detailButton {
+	background-color: #6c6;
+	display: inline-block;
+	width: 100px;
+	margin-top: 10px;
+	margin-left: 88px;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid #08d;
+	color: white;
+	font-weight: bold;
+}

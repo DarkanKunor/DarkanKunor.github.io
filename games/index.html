@@ -1,6 +1,7 @@
-<html>
+﻿<html>
 <head>
 	<title>Mario Sergio - Games</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link type="text/css" rel="stylesheet" href="/main.css"/>
 	<link type="text/css" rel="stylesheet" href="gameList.css"/>
 </head>
@@ -10,144 +11,69 @@
 		<span class="menuItem" id="menuItemCurrent">Games</span>
 		<a class="menuItem" href='/contato.html'>Contato</a>
 	</div>
-	<hr>
-	<h1>Games</h1>
-	<div class="game">
-		<div class="gameImage">
-			<img class="image" src="helicoptero/images/thumbnail.jpg" />
-		</div>
-		<div class="gameData">
-			<table>
-				<tr>
-					<th colspan=2><h3>Helicóptero</h3></th>
-				</tr>
-				<tr>
-					<td colspan=2>Simulação de um helicóptero utilizando apenas física do unity.</td>
-				</tr>
-				<tr>
-					<td class="label">Papel</td>
-					<td class="data">Programador</td>
-				</tr>
-				<tr>
-					<td class="label">Tecnologia</td>
-					<td class="data">Unity (C#)</td>
-				</tr>
-				<tr>
-					<td class="label">Plataforma</td>
-					<td class="data">Web</td>
-				</tr>
-			</table>
-			<a class="detailButton" href="/games/helicoptero/">Detalhes</a>
+	
+	<div id="container">
+		<div class="gameSlide">
+			<div class="gameName">Corrida Vetorial</div>
+			<div class="gameThumbnail"><img src="helicoptero/images/thumbnail.jpg" /></div>
+			<div class="gameDescription">
+				<table>
+					<tr>
+						<td colspan=2>Jogo educativo com o objetivo de ensinar vetores de Física de uma maneira dinâmica e divertida.</td>
+					</tr>
+					<tr>
+						<td class="label">Papel</td>
+						<td class="data">Programador</td>
+					</tr>
+					<tr>
+						<td class="label">Tecnologia</td>
+						<td class="data">Unity (C#)</td>
+					</tr>
+					<tr>
+						<td class="label">Plataforma</td>
+						<td class="data">PC</td>
+					</tr>
+				</table>
+				<div class="detailsButton">
+					<a href="/games/corridaVetorial/">Detalhes</a>
+				</div>
+			</div>
+			<div id="end"></div>
 		</div>
 	</div>
-	
-	<div class="game">
-		<div class="gameImage">
-			<img class="image" src="invasaoGeometrica/images/thumbnail.jpg" />
+	<div id="container">
+		<div class="gameSlide">
+			<div class="gameName">Invasão Geométrica</div>
+			<div class="gameThumbnail"><img src="helicoptero/images/thumbnail.jpg" /></div>
+			<div class="gameDescription">
+				<table>
+					<tr>
+						<td colspan=2>Invada a fortaleza das esferas, escape de ser destruído, derrote todos os guardas e capture o tesouro para vencer esse desafio.</td>
+					</tr>
+					<tr>
+						<td class="label">Papel</td>
+						<td class="data">Programador</td>
+					</tr>
+					<tr>
+						<td class="label">Tecnologia</td>
+						<td class="data">Unity (C#)</td>
+					</tr>
+					<tr>
+						<td class="label">Plataforma</td>
+						<td class="data">PC</td>
+					</tr>
+				</table>
+				<div class="detailsButton">
+					<a href="/games/invasaoGeometrica/">Detalhes</a>
+				</div>
+			</div>
+			<div id="end"></div>
 		</div>
-		<div class="gameData">
-			<table>
-				<tr>
-					<th colspan=2><h3>Invasão Geométrica</h3></th>
-				</tr>
-				<tr>
-					<td colspan=2>Invada a fortaleza das esferas, escape de ser destruído, derrote todos os guardas e capture o tesouro para vencer esse desafio.</td>
-				</tr>
-				<tr>
-					<td class="label">Papel</td>
-					<td class="data">Programador</td>
-				</tr>
-				<tr>
-					<td class="label">Tecnologia</td>
-					<td class="data">Unity (C#)</td>
-				</tr>
-				<tr>
-					<td class="label">Plataforma</td>
-					<td class="data">Web</td>
-				</tr>
-			</table>
-			<a class="detailButton" href="/games/invasaoGeometrica/">Detalhes</a>
-		</div>
-	</div>
-	
-	<div class="game">
-		<div class="gameImage">
-			<img class="image" src="corridaVetorial/images/thumbnail.jpg" />
-		</div>
-		<div class="gameData">
-			<table>
-				<tr>
-					<th colspan=2><h3>Corrida Vetorial</h3></th>
-				</tr>
-				<tr>
-					<td colspan=2>Jogo educativo com o objetivo de ensinar vetores de Física de uma maneira dinâmica e divertida.</td>
-				</tr>
-				<tr>
-					<td class="label">Papel</td>
-					<td class="data">Programador</td>
-				</tr>
-				<tr>
-					<td class="label">Tecnologia</td>
-					<td class="data">Unity (C#)</td>
-				</tr>
-				<tr>
-					<td class="label">Plataforma</td>
-					<td class="data">PC</td>
-				</tr>
-			</table>
-			<a class="detailButton" href="/games/corridaVetorial/">Detalhes</a>
-		</div>
-	</div>
-	
-	<div class="game">
-		<div class="gameImage">
-			<img class="image" src="kingdomHero/images/thumbnail.jpg" />
-		</div>
-		<div class="gameData">
-			<table>
-				<tr>
-					<th colspan=2><h3>Kingdom Hero</h3></th>
-				</tr>
-				<tr>
-					<td colspan=2>Kingdom Hero é endless runner em que o objetivo do jogador é liberar o reino dos mais variados tipos de monstros.</td>
-				</tr>
-				<tr>
-					<td class="label">Papel</td>
-					<td class="data">Programador</td>
-				</tr>
-				<tr>
-					<td class="label">Tecnologia</td>
-					<td class="data">Unity (C#)</td>
-				</tr>
-				<tr>
-					<td class="label">Plataforma</td>
-					<td class="data">Celular</td>
-				</tr>
-			</table>
-			<a class="detailButton" href="/games/kingdomHero/">Detalhes</a>
-		</div>
-	</div>
-	
-	<div class="game">
-		<div class="gameImage">
-			<img class="image" src="game/images/thumbnail.jpg" />
-		</div>
-		<div class="gameData">
-			<table>
-				<tr>
-					<th colspan=2><h3>Nome</h3></th>
-				</tr>
-				<tr>
-					<td class="label">Teste 1</td>
-					<td class="data">Testado</td>
-				</tr>
-				<tr>
-					<td class="label">Teste 2</td>
-					<td class="data">Testado</td>
-				</tr>
-			</table>
-			<a class="detailButton" href="/games/game/">Detalhes</a>
-		</div>
+		
+		<!--
+		<button class="slideButtonLeft" onclick="plusDivs(-1)">&#10094;</button>
+		<button class="slideButtonRight" onclick="plusDivs(+1)">&#10095;</button>
+		-->
 	</div>
 </body>
 </html>
