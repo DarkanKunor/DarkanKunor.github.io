@@ -14,9 +14,10 @@
 	
 	<div id="gameDetails">
 		<div id="gameName">Corrida Vetorial</div>
+		
 		<div id="slideshowContainer">
 			<div class="slide">
-				<video controls>
+				<video class="gameVideo" poster="media/thumbnail.png" controls>
 				  <source src="media/trailer.mp4" type="video/mp4">
 				  <!--<source src="mov_bbb.ogg" type="video/ogg">-->
 				  Your browser does not support HTML5 video.
@@ -30,15 +31,17 @@
 			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 			<a class="next" onclick="plusSlides(1)">&#10095;</a>
 		</div>
+		
 		<div id="slidesLinks">
 			<img class="slideIndex" src="media/thumbnail.png" onclick="currentSlide(1)"/>
 			<img class="slideIndex" src="media/thumbnail.png" onclick="currentSlide(2)"/>
 		</div>
+		
 		<div id="gameData">
 			Teste
 		</div>
 	</div>
 	
-	<script src="slideshow.js"></script>
+	<script src="/js/slideshow.js"></script>
 </body>
 </html>
