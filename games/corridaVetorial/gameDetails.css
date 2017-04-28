@@ -58,3 +58,15 @@ div {
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
+
+.slideIndex {
+	display: inline-block;
+	width: 48%;
+	max-width: 100px;
+	height: auto;
+	border: 2px solid black;
+}
+
+.active {
+  border: solid blue 2px;
+}

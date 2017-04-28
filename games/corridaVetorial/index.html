@@ -16,10 +16,6 @@
 		<div id="gameName">Corrida Vetorial</div>
 		<div id="slideshowContainer">
 			<div class="slide">
-				<img src="media/thumbnail.png" />
-			</div>
-			
-			<div class="slide">
 				<video controls>
 				  <source src="media/trailer.mp4" type="video/mp4">
 				  <!--<source src="mov_bbb.ogg" type="video/ogg">-->
@@ -27,8 +23,16 @@
 				</video>
 			</div>
 			
+			<div class="slide">
+				<img src="media/thumbnail.png" />
+			</div>
+			
 			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<div id="slidesLinks">
+			<img class="slideIndex" src="media/thumbnail.png" onclick="currentSlide(1)"/>
+			<img class="slideIndex" src="media/thumbnail.png" onclick="currentSlide(2)"/>
 		</div>
 		<div id="gameData">
 			Teste
