@@ -32,6 +32,7 @@ h1 {
 	padding-bottom: 8px;
 	color: white;
 	text-decoration: none;
+	border-bottom: 3px solid black;
 }
 
 .menuItem:hover {
