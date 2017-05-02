@@ -22,6 +22,7 @@
 #slideshowContainer {
 	position: relative;
 	background-color: #bbb;
+	border: 3px solid #bbb;
 }
 
 .slide {
@@ -78,7 +79,7 @@
 }
 
 .active {
-  border: solid #fff 2px;
+  border: solid #fff 3px;
 }
 
 .videoPlayButton {
