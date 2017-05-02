@@ -1,12 +1,16 @@
-div {
-	border: solid red 1px;
-}
+/*div {
+	border: solid #000 1px;
+}/* */
 
 #gameDetails {
 	width: 90%;
 	max-width: 600px;
 	margin: auto;
 	margin-top: 20px;
+	border: double #999 1px;
+	padding: 10px;
+	background-color: #ddd;
+	border-radius: 10px;
 }
 
 #gameName {
@@ -17,6 +21,7 @@ div {
 
 #slideshowContainer {
 	position: relative;
+	background-color: #bbb;
 }
 
 .slide {
@@ -31,6 +36,11 @@ div {
 .slide video {
 	width: 100%;
 	heith: auto;
+}
+
+#slidesLinks {
+	background-color: #bbb;
+	padding: 5px;
 }
 
 /* Next & previous buttons */
@@ -61,14 +71,14 @@ div {
 
 .slideIndex {
 	display: inline-block;
-	width: 48%;
+	width: 19%;
 	max-width: 100px;
 	height: auto;
-	border: 2px solid black;
+	border: 3px solid #bbb;
 }
 
 .active {
-  border: solid blue 2px;
+  border: solid #fff 2px;
 }
 
 .videoPlayButton {
