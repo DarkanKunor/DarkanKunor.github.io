@@ -2,6 +2,6 @@
 
 Project of my personal game developer portfolio web site.
 
-# Author
+## Author
 
 Mario Sérgio
