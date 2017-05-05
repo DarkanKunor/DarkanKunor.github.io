@@ -1,0 +1,44 @@
+/* General site format */
+* {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-size: 1em;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+/* Top menu format */
+
+#menu {
+	float: top;
+	background-color: black;
+	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 5px;
+}
+
+.menuItem {
+	display: inline-block;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 8px;
+	color: white;
+	text-decoration: none;
+	border-bottom: 3px solid black;
+}
+
+.menuItem:hover {
+	border-bottom: 3px solid white;
+}
+
+#menuItemCurrent {
+	border-bottom: 3px solid white;
+}

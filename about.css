@@ -1,0 +1,25 @@
+/* About page format */
+#background {
+	background-image: url("/images/background.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+}
+
+#page {
+	width: 100%;
+	max-width: 600px;
+	min-width: 200px;
+	margin: auto;
+}
+
+.info {
+	display: block;
+}
+
+.info img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
