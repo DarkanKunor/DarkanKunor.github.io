@@ -63,17 +63,17 @@ h2 {
 
 	.input {
 		float right;
-		margin-left: 80px;
+		margin-left: 100px;
 	}
 	
 	.contactInput{
 		padding: 2px;
-		width: 270px;
+		width: 250px;
 	}
 
 	.contactTextBox{
 		height: 6em;
-		width: 270px;
+		width: 250px;
 		resize: none;
 	}
 	
