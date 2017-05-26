@@ -26,6 +26,11 @@ function showSlides(n) {
   stopVideo();
 }
 
+function playVideo(n) {
+	var vid = document.getElementsByClassName("gameVideo");
+	vid[n].paused ? vid[n].play() : vid[n].pause();
+}
+
 function stopVideo() {
   var vid = document.getElementsByClassName("gameVideo");
   for (var i = 0; i < vid.length; i++) {
