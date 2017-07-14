@@ -1,0 +1,78 @@
+﻿<html>
+<head>
+	<title>Mario Sérgio - Games - Corre Guerreirinho</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="text/css" rel="stylesheet" href="/css/main.css"/>
+	<link type="text/css" rel="stylesheet" href="/css/gameDetails.css"/>
+</head>
+<body>
+	<div id="menu">
+		<a class="menuItem" href='/'>Home</a>
+		<a class="menuItem" href='/games/'>Games</a>
+		<a class="menuItem" href='/contato.html'>Contato</a>
+	</div>
+	
+	<div id="gameDetails">
+		<div id="gameName">Corre Guerreirinho</div>
+		
+		<div id="slideshowContainer">
+			<div class="slide">
+				<video class="gameVideo" poster="media/trailer_poster.jpg" controls onclick="playVideo(0)">
+				  <source src="media/trailer.mp4" type="video/mp4">
+				  <!--<source src="mov_bbb.ogg" type="video/ogg">-->
+				  Your browser does not support HTML5 video.
+				</video>
+			</div>
+			
+			<div class="slide">
+				<img src="media/print1.jpg" />
+			</div>
+			
+			<div class="slide">
+				<img src="media/print2.jpg" />
+			</div>
+			
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		
+		<div id="slidesLinks">
+			<img class="slideIndex" src="media/trailer_poster.jpg" onclick="currentSlide(1)"/>
+			<img class="slideIndex" src="media/print1.jpg" onclick="currentSlide(2)"/>
+			<img class="slideIndex" src="media/print2.jpg" onclick="currentSlide(3)"/>
+		</div>
+		
+		<div id="gameData">
+			<table>
+				<tr>
+					<td colspan=2>Corre Guerreirinho é um jogo infinite runner para celular em que o jogador deve pular para evitar os obstáculo para conseguir atingir a maior distância possível.</td>
+				</tr>
+				<tr>
+					<td class="label">Papel</td>
+					<td class="data">Programador</td>
+				</tr>
+				<tr>
+					<td class="label">Tecnologia</td>
+					<td class="data">Unity (C#)</td>
+				</tr>
+				<tr>
+					<td class="label">Plataforma</td>
+					<td class="data">Android</td>
+				</tr>
+			</table>
+			
+			<div id='facebookButton'>
+				<a href="https://www.facebook.com/corridavetorial/">Confira a página do jogo no Facebook</a>
+			</div>
+			
+			<div id='googlePlayButton'>
+				<a href='https://play.google.com/store/apps/details?id=com.HiddenTreasure.CorreGuerreirinho&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+					<img alt='Disponível no Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/pt-br_badge_web_generic.png'/>
+				</a>
+			</div>
+		</div>
+	</div>
+	
+	<script src="/js/slideshow.js"></script>
+</body>
+</html>
