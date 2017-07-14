@@ -114,8 +114,20 @@
 	width: 70%;
 }
 
-#gamePageLink {
+#facebookButton {
 	display: block;
 	margin-top: 10px;
 	text-align: center;
+}
+
+#googlePlayButton {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#googlePlayButton img {
+	max-width: 250px;
+	width: 40%;
+	height: auto;
 }
