@@ -120,6 +120,12 @@
 	text-align: center;
 }
 
+#downloadButton {
+	display: block;
+	margin-top: 10px;
+	text-align: center;
+}
+
 #googlePlayButton {
 	display: block;
 	text-align: center;
