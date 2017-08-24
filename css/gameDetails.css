@@ -114,6 +114,12 @@
 	width: 70%;
 }
 
+#githubButton {
+	display: block;
+	margin-top: 10px;
+	text-align: center;
+}
+
 #facebookButton {
 	display: block;
 	margin-top: 10px;
